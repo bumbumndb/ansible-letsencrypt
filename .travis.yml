@@ -21,5 +21,5 @@ script:
   - ansible-playbook -i tests/inventory tests/test.yml --syntax-check
   - ansible-lint tests/test.yml
 
-  # Run the role/playbook with ansible-playbook.
+  # Run the role/playbook with ansible-playbook.test123
   - "ansible-playbook -i tests/inventory tests/test.yml --connection=local --sudo --tags install"
